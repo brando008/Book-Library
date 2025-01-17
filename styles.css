@@ -4,10 +4,18 @@
   box-sizing: border-box;
 }
 
+.body {
+  margin: 0;
+  padding-top: 60px;
+}
 .header {
   border: 2px solid black;
   display: flex;
   padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
   justify-content: space-between;
 }
 
