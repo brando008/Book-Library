@@ -150,3 +150,31 @@ body {
   background-color: white;
   color: black;
 }
+
+/* This will be for the library pages */
+.library-text {
+  border: 1px solid black;
+  display: flex;
+  font-size: 35px;
+  width: 100%;
+  justify-content: center;
+}
+.library-bottom-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+.library-bottom-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
