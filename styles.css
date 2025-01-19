@@ -109,3 +109,44 @@ body {
 }
 
 /* This will be for Login */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-box {
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.login-text {
+  border: 1px solid black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.login-input {
+  border: 1px solid black;
+  padding: 10px;
+}
+.login-btn {
+  display: block;
+  margin: 20px auto;
+  background-color: black;
+  width: 100px;
+  color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.login-btn:hover {
+  background-color: white;
+  color: black;
+}
