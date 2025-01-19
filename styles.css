@@ -72,3 +72,40 @@ body {
   border: 1px solid black;
   height: 200px;
 }
+
+/*This will be for Profile Page */
+.profile-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picture {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.profile-username {
+  border: 1px solid black;
+  display: flex;
+  font-size: 35px;
+  width: 100%;
+  justify-content: center;
+}
+
+.profile-content {
+  border: 1px solid black;
+  font-size: 25px;
+  width: 100%;
+}
+
+.profile-view {
+  border: 0.5px solid black;
+  height: 200px;
+  width: 100%;
+}
+
+/* This will be for Login */
